@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faavztale - Başlangıç</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-wrapper">
+        <div id="game-container">
+            <canvas id="gameCanvas"></canvas>
+        </div>
+        <div id="ui-layer">
+            <div id="status-bar" class="hidden">
+                <span id="player-name">GEZGİN</span> <span class="hp-label">HP</span>
+                <div id="hp-container"><div id="hp-bar"></div></div>
+                <span id="hp-text">20 / 20</span>
+            </div>
+            <div id="dialogue-box" class="">
+                <div id="text-content">Hoş geldin Faavztale dünyasına...</div>
+            </div>
+            <div id="battle-menu" class="hidden">
+                <div class="menu-item" id="btn-fight">SAVAŞ</div>
+                <div class="menu-item" id="btn-act">HAREKET</div>
+                <div class="menu-item" id="btn-item">EŞYA</div>
+                <div class="menu-item" id="btn-mercy">MERHAMET</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
